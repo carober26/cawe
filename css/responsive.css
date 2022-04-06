@@ -1,0 +1,137 @@
+/* media queries */
+
+@media only screen and (max-width:400px) {
+
+
+    .upper_header {
+      
+        display: flex;
+        padding: 5px;
+        margin-top: 1rem;
+    } 
+    .upper_menu {
+        display: flex;
+        justify-content: left;
+        margin-top: 3rem;
+     
+    }
+
+    .lower_menu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+      
+
+    }
+
+    .lower_header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header_background {
+        background-color: white;
+    }
+
+    .contenedor_imagenes_alojamientos {
+    
+   
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        row-gap: 70px;
+    
+    
+    }
+    #grilla {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "section1 none"
+        "section2"
+        "section3"
+        ;
+        grid-template-rows: 10%  1fr 1fr 10%; 
+        height: 2200px;
+        width: 400px;
+      
+    }
+    
+    .footer {
+        display: none;
+    }
+
+    .section1 {
+        display: none;
+    }
+
+
+    .logo {
+        background-image:url("../IMAGES/LogoMakr-0QvKxl.png");
+        background-repeat: no-repeat;
+        margin-left: 20px;
+        background-size: 80px;
+        
+        
+    }
+    .contenedor_boton {
+        display: none;
+  
+        }
+    .header {
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+   
+}
+
+
+@media only screen and (max-width:1400px) {
+
+    #grilla {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "section1"
+        "section2"
+        "section3"
+        "footer"
+        ;
+        grid-template-rows: 10%  1fr 1fr 30%; 
+        width: 1400px;
+    }
+
+    .header {
+        width: 1350px;
+    }
+    .upper_header {
+        width: 1340px;
+    }
+
+    .section_background {
+        width: 1400px;
+    }
+
+    .section_input {
+        padding: 10px;
+        float: right;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: whitesmoke;
+        text-align: left;
+        margin-block-start: 26em;
+        margin-inline-end: 280px;
+        
+    }
+
+    .contenedor_experciencias {
+            margin-top: 0px;
+        
+    }
+
+
+     
+    
+}
