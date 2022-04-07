@@ -135,3 +135,51 @@
      
     
 }
+
+@media only screen and (max-width:1400px) {
+
+    #grilla_alojamientos {
+        display: grid;
+        grid-template-areas: 
+        
+        "form2"
+        "section2"
+        "section3"
+        "footer"
+        ;
+        grid-template-rows: 10%  1fr 1fr 30%; 
+        width: 1400px;
+    }
+
+    .header {
+        width: 1350px;
+    }
+    .upper_header {
+        width: 1340px;
+    }
+
+    .section_background {
+        width: 1400px;
+    }
+
+    .section_input {
+        padding: 10px;
+        float: right;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: whitesmoke;
+        text-align: left;
+        margin-block-start: 26em;
+        margin-inline-end: 280px;
+        
+    }
+
+    .contenedor_experciencias {
+            margin-top: 0px;
+        
+    }
+
+
+     
+    
+}
