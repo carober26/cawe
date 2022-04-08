@@ -65,16 +65,8 @@ button {
     
 }
 
-@media only screen and (max-width:400px) {
-    height: 35px;
-    width: 120px;
-    padding: 2px;
-    border: 0px;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight: 100;
-    background-color: black;    
-}
+
+
 
 
 .lower_header {
