@@ -2,7 +2,7 @@
 
 @media only screen and (max-width:400px) {
 
-
+/* 
     .upper_header {
       
         display: flex;
@@ -31,8 +31,8 @@
 
     .header_background {
         background-color: white;
-    }
-
+    } */
+/* 
     .contenedor_imagenes_alojamientos {
     
    
@@ -67,7 +67,7 @@
 
 
     .logo {
-        background-image:url("images\logo_cawe.png");
+        background-image:url ("images\logo_cawe.png");
         background-repeat: no-repeat;
         margin-left: 20px;
         background-size: 80px;
@@ -182,4 +182,4 @@
 
      
     
-}
+} */
