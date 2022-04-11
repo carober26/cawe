@@ -109,6 +109,7 @@ button {
     text-align: left;
     display: flex;
     justify-content:flex-end;
+    margin-left: 8rem;
     }
 
 .section_form {
