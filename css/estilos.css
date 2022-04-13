@@ -253,27 +253,7 @@ margin-left: 1rem;
     margin-bottom: 2px;
 }
 
-.icon_align {
-    display: flex;
-    justify-content: right;
-    gap: 20px;
-    width: 460px;
-    margin-right: 1rem;
 
-
-}
-
-.icon_border {
-    border: 1px solid   black ;
-    width: 56px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: whitesmoke;
-    padding: 10px;
-    text-align: center;
-    font-size: 10px;
-
-}
 
 
 
@@ -285,6 +265,8 @@ margin-left: 1rem;
     font-weight: lighter;
     height: 111px;
     width: 60px;
+    border: 1px solid rgba(0,0,0,.125);
+
     
    
  }
@@ -403,10 +385,30 @@ footer {
 
 } 
 
+.icon_align {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    width: 460px;
+    margin-right: 1rem;
+
+
+}
+
+.icon_border {
+    width: 56px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+
+}
+
 
 .filter_form {
 
-    border: 2px solid black;
     border-radius: 8px;
     background-color: whitesmoke;
     text-align: left;
@@ -440,6 +442,7 @@ footer {
     display: flex;
     justify-content: right;
     gap: 10px;
+    padding: 8px;
 }
 
 .side_article {
@@ -465,8 +468,6 @@ footer {
 
 }
 
-.map {
-}
 
 
 /* Contactos */
